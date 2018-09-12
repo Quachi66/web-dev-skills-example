@@ -1,0 +1,86 @@
+/* Style Sheet for Web Development Skills Page */
+
+/* Page Stlyes */
+html {
+    background: url("images/leaf-background.jpg") no-repeat center fixed;
+    background-size: cover; 
+}
+
+div  {
+    border-radius: 25px; 
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px 75px;
+    background-color: white; 
+}
+
+.html {
+    border: solid 2px #E34F26; 
+    box-shadow: 2px 2px #E34F26;
+}
+
+.css {
+    border: solid 2px #0170BA;
+    box-shadow: 2px 2px #0170BA;
+}
+
+.js {
+    border: solid 2px #F0DB4F;
+    box-shadow: 2px 2px #F0DB4F
+}
+
+/* Text Styles*/
+h1, h2 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 32px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px; 
+    font-size: 45px;
+    text-shadow: 1px 1px
+}
+
+p {
+    font-size: 16px;
+}
+
+
+h2 {
+    font-variant: small-caps; 
+}
+
+p, ol {
+     font-family: 'Times New Roman', sans-serif;
+     letter-spacing: 0.5px;
+}
+
+span {
+    font-family: Papyrus;
+}
+
+/* Tutorial Notes*/
+.Tutorial {
+    font-size: 12px;
+}
+
+/* Link Styles*/
+a:link {
+    Color: DodgerBlue;
+    text-decoration: none; 
+}
+
+a:hover {
+    Color: Purple;
+    text-decoration: underline;
+}
+
+/* Image Style */
+img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;   
+}
+
